@@ -1,0 +1,20 @@
+    1  vi /etc/hostname 
+    2  hostname cleaning
+    3  exit
+    4  yum install httpd wget vim unzip zip -y
+    5  sudo service start httpd
+    6  systemctl start httpd
+    7  systemctl enable httpd
+    8  ip addr show
+    9  cd /var/www/html
+   10  ls
+   11  vim index.html
+   12  cd /tmp/
+   13  wget https://www.tooplate.com/zip-templates/2132_clean_work.zip
+   14  unzip 2132_clean_work.zip 
+   15  ls
+   16  cd 2132_clean_work
+   17  ls
+   18  cp -r * /var/www/html
+   19  ls /var/www/html/
+   20  history
